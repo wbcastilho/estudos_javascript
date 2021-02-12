@@ -1,5 +1,8 @@
 /*---------------------------------------
 FUNÇÕES DE ARRAY - map()
+
+Usar map quando é preciso traduzir/mapear todos os elementos em um array 
+para outro conjunto de valores.
 -----------------------------------------*/
 
 
@@ -14,6 +17,7 @@ const doubledNumbers = numbers.map(function(elem){
 
 console.log(doubleNumbers);
 
+
 /*---------------------------------------
 EXEMPLO 02
 -----------------------------------------*/
@@ -27,6 +31,7 @@ const doubledNumbers = numbers.map(doubleNumber);
 
 console.log(doubledNumbers);
 
+
 /*---------------------------------------
 EXEMPLO 03
 -----------------------------------------*/
@@ -35,6 +40,7 @@ const numbers = [1, 4, 5, 9, 14, 23];
 const doubledNumbers = numbers.map(num => num * 2);   
 
 console.log(doubledNumbers);
+
 
 /*---------------------------------------
 EXEMPLO 04

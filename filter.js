@@ -1,5 +1,7 @@
 /*---------------------------------------
 FUNÇÕES DE ARRAY - filter()
+
+Use filter quando: é preciso remover elementos indesejados com base em alguma(s) condição(ões).
 -----------------------------------------*/
 
 
