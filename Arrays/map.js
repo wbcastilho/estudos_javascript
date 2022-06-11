@@ -21,13 +21,13 @@ console.log(doubleNumbers);
 /*---------------------------------------
 EXEMPLO 02
 -----------------------------------------*/
-const numbers = [1, 4, 5, 9, 14, 23];
+const numbers2 = [1, 4, 5, 9, 14, 23];
 
 function doubleNumber(num){
     return num * 2;
 }
 
-const doubledNumbers = numbers.map(doubleNumber);   
+const doubledNumbers2 = numbers.map(doubleNumber);   
 
 console.log(doubledNumbers);
 
@@ -35,9 +35,9 @@ console.log(doubledNumbers);
 /*---------------------------------------
 EXEMPLO 03
 -----------------------------------------*/
-const numbers = [1, 4, 5, 9, 14, 23];
+const numbers3 = [1, 4, 5, 9, 14, 23];
 
-const doubledNumbers = numbers.map(num => num * 2);   
+const doubledNumbers3 = numbers.map(num => num * 2);   
 
 console.log(doubledNumbers);
 

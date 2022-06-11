@@ -43,4 +43,4 @@ let postUser1 = posts.filter((item) => {
 /*---------------------------------------
 EXEMPLO ANTERIOR SIMPLIFICADO
 -----------------------------------------*/
-let postUser1 = posts.filter(item => item.user_id === 1);
+let postUser2 = posts.filter(item => item.user_id === 1);
