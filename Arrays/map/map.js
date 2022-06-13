@@ -3,6 +3,9 @@ FUNÇÕES DE ARRAY - map()
 
 Usar map quando é preciso traduzir/mapear todos os elementos em um array 
 para outro conjunto de valores.
+- Cria um novo array
+- Não modifica o array original
+- Realiza as operações em ordem
 -----------------------------------------*/
 
 
@@ -52,3 +55,11 @@ const celsius = fahrenheit.map(function(elem){
 });
 
 console.log(celsius);
+
+/*---------------------------------------
+EXEMPLO 05
+-----------------------------------------*/
+const array = [1, 2, 3, 4, 5];
+
+array.map((item)=> item*2);
+// [2, 4, 6, 8, 10]
