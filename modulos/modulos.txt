@@ -1,0 +1,20 @@
+O que são módulos?
+    Arquivos javascript que tem capacidade de exportar e importar informações de outros arquivos do mesmo tipo.
+
+Vantagens:
+- Organiaçção de códgo
+- Compartilhamento de variáveis em escopos diferentes
+- Explicita as dependências dos arquivos
+
+Maneiras de se exportar:
+- Named exports
+- Default exports
+    - Só pode haver um por arquivos
+    - Será o retorno padrão do seu arquivo
+
+Curiosidades:
+- Módulos sempre estão em "strict mode"
+- Podem ser utilizados as extensões .js e .mjs
+- Para testes locais é necessário utilizar um servidor, exemplo xampp
+- Ao importar sempre lembre da extensão (.js, .mjs)
+- Ao importar sempre utilize "./" como ponto de partida
