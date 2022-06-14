@@ -1,0 +1,5 @@
+Promise
+
+- Objeto de Processamento assincrono
+- Inicialmente, seu valor é desconhecido. Ela pode ser resolvida ou rejeitada
+- Um promisse pode ter 3 estados: Pending, Fulfilled, Rejected
