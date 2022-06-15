@@ -1,0 +1,12 @@
+Eventos - Qualquer tipo de ação que um usuário faça na página
+
+Tipos de eventos
+    - Eventos de mouse
+        - mouseover
+        - mouseout
+    - Eventos de clique
+        - click
+        - dbclick
+    - Eventos de atualização
+        - change
+        - load
